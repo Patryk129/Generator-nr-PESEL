@@ -34,10 +34,10 @@ for i in range(10):
                     pesel[8] = str(k)
                     if plec == "K":
                         if l%2==0:
-                            pesel[9] = str(l)#kobieta0
+                            pesel[9] = str(l)
                     else:
                         if l%2!=0:
-                            pesel[9] = str(l)#mezczyzna=1
+                            pesel[9] = str(l)
                     w = 1*int(pesel[0])+3*int(pesel[1])+7*int(pesel[2]) + 9*int(pesel[3])+1*int(pesel[4]) + 3*int(pesel[5]) + 7*int(pesel[6]) + 9*int(pesel[7])+ 1*int(pesel[8]) + 3*int(pesel[9])
                     w = str(w)
                     w = int(w[len(w)-1])
